@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Entities.Concrete;
 
 namespace Business.Abstract
 {
-    internal interface IApplicantService
+    public interface IApplicantService
     {
         void ApplyForMask(Person person);
 
